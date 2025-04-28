@@ -1,0 +1,9 @@
+Manfaat polimorfisme pada kode:
+Memudahkan pengelolaan berbagai tipe objek hanya dengan mengakses satu tipe referensi saja.
+Metode tampilData() yang dipanggil akan otomatis menyesuaikan dengan tipe objek yang menjalankannya.
+Program lebih fleksibel dan sederhana.
+
+Jika ada pegawai4 dan pegawai5 tanpa polimorfisme:
+Harus cek masing masing tipe pegawai menggunakan instanceof.
+Harus membuat pengkondisian menggunakan if-else untuk membedakan Programmer dan Manajer.
+Kode menjadi panjang, tidak rapi, dan kompleks.
